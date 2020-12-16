@@ -11,8 +11,8 @@
 **Install other node_modules inside project root (npm install --save-dev "module"):**
 * protractor-cucumber-framework
 * Cucumber
-* Chai
-* protractor-simple-cucumber-html-reporter-plugin
+* Chai (for assertions)
+* protractor-simple-cucumber-html-reporter-plugin (for html report generation)
 * And other required node modules
 
 **Update WebDriverManager:**
