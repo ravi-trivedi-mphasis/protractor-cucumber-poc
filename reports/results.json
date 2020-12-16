@@ -1,0 +1,93 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Running Cucumber with Protractor",
+    "line": 3,
+    "id": "running-cucumber-with-protractor",
+    "tags": [],
+    "uri": "features\\test.feature",
+    "elements": [
+      {
+        "id": "running-cucumber-with-protractor;protractor-and-cucumber-test",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Protractor and Cucumber Test",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "Frameworks\\protractor_cucumber_example\\node_modules\\cucumber\\src\\support_code_library_builder\\define_helpers.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I go to \"https://angular.io/\"",
+            "match": {
+              "location": "Frameworks\\protractor_cucumber_example\\node_modules\\cucumber\\src\\support_code_library_builder\\define_helpers.js:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2731000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I enter \"test\" in the searchbox",
+            "match": {
+              "location": "Frameworks\\protractor_cucumber_example\\node_modules\\cucumber\\src\\support_code_library_builder\\define_helpers.js:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8249000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Verify \"test\" is present",
+            "match": {
+              "location": "Frameworks\\protractor_cucumber_example\\node_modules\\cucumber\\src\\support_code_library_builder\\define_helpers.js:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 367000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "Frameworks\\protractor_cucumber_example\\node_modules\\cucumber\\src\\support_code_library_builder\\define_helpers.js:20"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
