@@ -1,3 +1,9 @@
+**Why Protractor ?**
+* Test Web & Mobile
+* Test AngularJS, ReactJS
+* Test Perfecto
+* Cucumber Support
+
 **Install as global (npm install -g "module"):**
 * NodeJS
 * Protractor (this also installs WebDriverManager)
