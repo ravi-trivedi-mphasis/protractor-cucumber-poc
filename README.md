@@ -1,3 +1,9 @@
+**Note:**
+```
+Install supporting node modules inside your project root. 
+It will create "node_modules" directory automatically in the project root
+```
+
 **Why Protractor ?**
 * Test Web & Mobile
 * Test AngularJS, ReactJS
